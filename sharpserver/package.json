@@ -1,12 +1,17 @@
 {
-  "name": "application-name",
+  "name": "sharpserver",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node sharpserver.js"
   },
   "dependencies": {
-    "express": "3.2.6",
-    "jade": "*"
+    "express": "4.10.*",
+    "jade": "*",
+    "serve-favicon": "*",
+    "morgan": "*",
+    "body-parser": "*",
+    "method-override": "*",
+    "express-session": "1.9.*"
   }
 }
